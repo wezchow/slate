@@ -56,7 +56,7 @@
         highlight.call(this);
       } else {
         searchResults.html('<li></li>');
-	$('.search-results li').text('No Results Found for "' + this.value + '"');
+	$('.search-results li').text('没有发现含有 "' + this.value + '" 的信息。');
       }
     } else {
       unhighlight();
